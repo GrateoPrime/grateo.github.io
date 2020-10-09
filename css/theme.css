@@ -1,11 +1,3 @@
-/*
-
-November Template
-
-http://www.templatemo.com/tm-473-november
-
-*/
-
 /* --** Reset CSS **-- */
 * { margin: 0px; padding: 0px; box-sizing: border-box; -webkit-font-smoothing: antialiased; }
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { border: 0; font-family: inherit; font-size: 100%; font-weight: inherit; margin: 0; outline: 0; padding: 0; vertical-align: baseline; }
@@ -64,6 +56,7 @@ body { background: #fff; }
     font-family: 'Open Sans';
     line-height: 25px;
 }
+
 
 .list-grouping {
 	padding-bottom:20px;
@@ -150,6 +143,82 @@ header.smaller .Navigation li { height: 60px; }
 .Banner_sec .rightside .nextBtn:hover { opacity: 1; }	
 .Banner_sec .rightside .Shadow { position: absolute; bottom: -3px; left: -25px; max-width: none; }
 
+/*Services Section*/
+.Services_sec .service_button a {
+	background: #104fad !important;
+	padding: 11px 16px;
+	font-size: 14px;
+	color: #fff; 
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600; text-transform: uppercase; text-decoration: none;
+	display: inline-block;
+	background: rgba(64, 93, 118, 0.8);
+	transition: all 0.3s ease;
+	width: 200px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.Serviceside .service_text {
+    font-size: 14px;
+    color: #ebebeb;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+.Services_sec .service_button_motor a {
+	background: #e7880a !important;
+	padding: 11px 16px;
+	font-size: 14px;
+	color: #fff; 
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600; text-transform: uppercase; text-decoration: none;
+	display: inline-block;
+	background: rgba(64, 93, 118, 0.8);
+	transition: all 0.3s ease;
+	width: 200px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.Services_sec .service_button_scooter a {
+	background: #9c2419 !important;
+	padding: 11px 16px;
+	font-size: 14px;
+	color: #fff; 
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600; text-transform: uppercase; text-decoration: none;
+	display: inline-block;
+	background: rgba(64, 93, 118, 0.8);
+	transition: all 0.3s ease;
+	width: 200px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+
+.Services_sec .service_button_aanhanger a {
+	background: #5c5d5f !important;
+	padding: 11px 16px;
+	font-size: 14px;
+	color: #fff; 
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600; text-transform: uppercase; text-decoration: none;
+	display: inline-block;
+	background: rgba(64, 93, 118, 0.8);
+	transition: all 0.3s ease;
+	width: 200px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+
+
+
+
+
 /* <<< bg color>>> */
 .bgcolor {  height: 74px; width: 100%; background: rgba(249,250,251,1); background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(249,250,251,1)), color-stop(0%, rgba(249,250,251,1)), color-stop(100%, rgba(225,228,231,1)));
 	background: linear-gradient(to bottom, rgba(249,250,251,1) 0%, rgba(249,250,251,1) 0%, rgba(225,228,231,1) 100%);
@@ -192,24 +261,24 @@ header.smaller .Navigation li { height: 60px; }
 	.Services_sec .Serviceside ul { list-style: none; margin: 0px }
 	.Services_sec .Serviceside li { float: left; padding: 0px; margin: 0px 40px 0px 0px; text-align: center; width: 245px; }
 	.Services_sec .Serviceside li:last-child { margin-right: 0px;}
-	.Services_sec .Serviceside li.Development { padding: 44px 0px 161px 0px; background: url(../img/Development-bg.jpg) no-repeat;box-shadow: 1px 4px 7px -4px rgba(0,0,0,0.75); }	.Services_sec .Serviceside li.Development a { text-decoration: none; background: url(../img/Development-cn.png) top center no-repeat; display: block; }
-	.Services_sec .Serviceside li.Development h4 { padding: 138px 0px 0px 0px;  font-size: 17px; color: #03a4df; text-decoration: none; text-transform: uppercase; font-family: 'Open Sans', sans-serif; font-weight: 400;  }
-	.Services_sec .Serviceside li.Development a:hover h4 { color: #fff; background: url(../img/Develop-hover-icn.png) top center no-repeat; }
+	.Services_sec .Serviceside li.Development { padding: 20px 0px 161px 0px; background: url(../img/Development-bg-car.jpg) no-repeat;box-shadow: 1px 4px 7px -4px rgba(0,0,0,0.75); }	.Services_sec .Serviceside li.Development a { text-decoration: none; background: url(../img/Develop-hover-icn-car.png) top center no-repeat; display: block; }
+	.Services_sec .Serviceside li.Development h4 { padding: 138px 0px 0px 0px;  font-size: 17px; color: #fff; text-decoration: none; text-transform: uppercase; font-family: 'Open Sans', sans-serif; font-weight: 400;  }
+	/*.Services_sec .Serviceside li.Development a:hover h4 { color: #fff; background: url(../img/Develop-hover-icn-car.png) top center no-repeat; }*/
 
-	.Services_sec .Serviceside li.Desdin { padding: 44px 0px 159px 0px;background: url(../img/desgin-bg.jpg) no-repeat; box-shadow: 1px 4px 7px -4px rgba(0,0,0,0.75);  }
-	.Services_sec .Serviceside li.Desdin a { text-decoration: none; background: url(../img/desgin-icn.png) top center no-repeat; display: block; }
-	.Services_sec .Serviceside li.Desdin h4 { padding: 138px 0px 0px 0px;  font-size: 18px; color: #ffab3f; text-decoration: none; text-transform: uppercase; font-family: 'Open Sans', sans-serif; font-weight: 400;  }
-	.Services_sec .Serviceside li.Desdin a:hover h4 { color: #fff; background: url(../img/desgin-hover-icn.png) top center no-repeat; }
+	.Services_sec .Serviceside li.Desdin { padding: 20px 0px 159px 0px;background: url(../img/desgin-bg.jpg) no-repeat; box-shadow: 1px 4px 7px -4px rgba(0,0,0,0.75);  }
+	.Services_sec .Serviceside li.Desdin a { text-decoration: none; background: url(../img/desgin-hover-icn-motor.png) top center no-repeat; display: block; }
+	.Services_sec .Serviceside li.Desdin h4 { padding: 138px 0px 0px 0px;  font-size: 18px; color: #fff; text-decoration: none; text-transform: uppercase; font-family: 'Open Sans', sans-serif; font-weight: 400;  }
+	/*.Services_sec .Serviceside li.Desdin a:hover h4 { color: #fff; background: url(../img/desgin-hover-icn.png) top center no-repeat; }*/
 
-	.Services_sec .Serviceside li.Concept { padding: 44px 0px 159px 0px; background: url(../img/concept-bg.jpg) no-repeat; box-shadow: 1px 4px 7px -4px rgba(0,0,0,0.75);  }
-	.Services_sec .Serviceside li.Concept a { text-decoration: none; background: url(../img/concept-icn.png) top center no-repeat; display: block; }
-	.Services_sec .Serviceside li.Concept h4 { padding: 138px 0px 0px 0px; font-size: 18px; color: #ae382d; text-decoration: none; text-transform: uppercase;font-family: 'Open Sans', sans-serif; font-weight: 400; }
-	.Services_sec .Serviceside li.Concept a:hover h4 { color: #fff; background: url(../img/concept-hover-icn.png) top center no-repeat; }
+	.Services_sec .Serviceside li.Concept { padding: 20px 0px 159px 0px; background: url(../img/concept-bg.jpg) no-repeat; box-shadow: 1px 4px 7px -4px rgba(0,0,0,0.75);  }
+	.Services_sec .Serviceside li.Concept a { text-decoration: none; background: url(../img/concept-icn-scooter.png) top center no-repeat; display: block; }
+	.Services_sec .Serviceside li.Concept h4 { padding: 138px 0px 0px 0px; font-size: 18px; color: #fff; text-decoration: none; text-transform: uppercase;font-family: 'Open Sans', sans-serif; font-weight: 400; }
+	/*.Services_sec .Serviceside li.Concept a:hover h4 { color: #fff; background: url(../img/concept-hover-icn.png) top center no-repeat; }*/
 
-	.Services_sec .Serviceside li.System { padding: 44px 0px 159px 0px;background: url(../img/systam-bg.jpg) no-repeat; box-shadow: 1px 4px 7px -4px rgba(0,0,0,0.75);  }
-	.Services_sec .Serviceside li.System a { text-decoration: none; background: url(../img/systam-icn.png) top center no-repeat; display: block; }
-	.Services_sec .Serviceside li.System h4 { padding: 138px 0px 0px 0px;  font-size: 18px; color: #5e5f61; text-decoration: none; letter-spacing: -1px; text-transform: uppercase; font-family: 'Open Sans', sans-serif; font-weight: 400;  }
-	.Services_sec .Serviceside li.System a:hover h4 { color: #fff; background: url(../img/systam-hover-icn.png) top center no-repeat;}
+	.Services_sec .Serviceside li.System { padding: 20px 0px 159px 0px;background: url(../img/systam-bg.jpg) no-repeat; box-shadow: 1px 4px 7px -4px rgba(0,0,0,0.75);  }
+	.Services_sec .Serviceside li.System a { text-decoration: none; background: url(../img/systam-hover-icn-book.png) top center no-repeat; display: block; }
+	.Services_sec .Serviceside li.System h4 { padding: 138px 0px 0px 0px;  font-size: 18px; color: #fff; text-decoration: none; letter-spacing: -1px; text-transform: uppercase; font-family: 'Open Sans', sans-serif; font-weight: 400;  }
+	/*.Services_sec .Serviceside li.System a:hover h4 { color: #fff; background: url(../img/systam-hover-icn.png) top center no-repeat;}*/
 	
 	/* <<< Pricing Section >>> */
 	.Pricing_sec { padding: 112px 0px 108px 0px ; width: 100%; overflow: hidden; background: #ececec; }
@@ -219,7 +288,7 @@ header.smaller .Navigation li { height: 60px; }
 	.Pricing_sec .Line { border: solid 1px #ff9408; height: 2px; width: 252px; margin: auto; }
 	.Pricing_sec .Pricingside { padding: 75px 0px 0px 0px; width: 100%; overflow: hidden; text-align: initial; }
 	.Pricing_sec .Pricingside ul { list-style: none; margin: 0px; }
-	.Pricing_sec .Pricingside li { float: none; padding: 0px; margin: 0px 0px 11px 0px; height: 103px; background: #fff; text-align: center; }
+	.Pricing_sec .Pricingside li { float: none; padding: 0px; margin: 0px 0px 11px 0px; height: 103px; background: #fff; text-align: center; min-width: 100%;}
 	.Pricing_sec .Pricingside li .Basic { width: 55px; float: left; display: table; height: 103px; background: #ff9408; transition: all ease 0.3s; }
 	.Pricing_sec .Pricingside li .Basic h5 { display: table-cell; vertical-align: middle; font-size: 17px; color: #2d2d2d; font-family: 'Oswald', sans-serif; font-weight: 400; text-transform: uppercase; margin: 0px; -webkit-transform: rotate(270deg); -moz-transform: rotate(270deg); -o-transform: rotate(270deg); -ms-transform: rotate(270deg); transform: rotate(270deg); clear: none; text-align: center; }
 	.Pricing_sec .Pricingside li .Dollar { padding: 22px 0px 21px 0px; width: 205px; float: left; background: #2d2d2d; transition: all ease 0.3s;}
